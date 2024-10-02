@@ -1,0 +1,23 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+   "type":"commonjs",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon --watch index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "body": "^5.1.0",
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2",
+    "mongodb": "^6.7.0",
+    "mongoose": "^8.4.4",
+    "nodemon": "^3.1.4",
+    "parser": "^0.1.4"
+  }
+}

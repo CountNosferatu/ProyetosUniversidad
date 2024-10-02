@@ -1,0 +1,173 @@
+/* 
+ * Always set the map height explicitly to define the size of the div element
+ * that contains the map. 
+ */
+ #map {
+    height: 100%;
+  }
+  
+  /* 
+   * Optional: Makes the sample page fill the window. 
+   */
+  html{
+    position: relative;
+    min-height: 100%
+  }
+  body {
+    height: 100% !important;
+    margin: 0 !important;
+    margin-left: 0% !important;
+    padding: 0 !important;
+    min-height: 100vh !important;
+    padding-bottom: 100px;
+    position: relative;
+   margin-bottom: 100px;
+   display: flex;
+   flex-direction: column;
+  }
+
+  font-face {
+    font-family: 'DarumadropOne';
+    src: url('css/vendor/DarumadropOne-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Luckiest Guy';
+    src: url('css/vendor/LuckiestGuy-Regular.ttf') format('truetype');
+}
+
+.poios{
+  background-color: #211917;
+}
+  .frito{
+    background-image: url('img/poiogei.jpg');
+    background-size: auto;
+    background-repeat: repeat;
+  }
+  .navbar-grande{
+    color: palevioletred;
+  }
+.container-fluid{
+  color: brown;
+}
+
+.boton-separado { 
+  margin-left: 10px;/* Ajusta el espacio entre los botones según necesites */
+}
+/*.row{
+  color: whitesmoke;
+}*/
+.coler{
+  background-color: #c53916 !important;
+  border-color: #c53916 !important;
+  color: #f4f8e6;
+}
+.coler:hover{
+background-color: #f4f8e6 !important;
+border-color: #c53916 !important;
+color: #c53916 !important ;
+}
+.taquito{
+  max-height: 50px;
+}
+.tlacuache{
+  border-color: #c53916 !important;
+}
+.otraclase{
+  color: #f4f8e6!important;
+}
+.letras {
+  font-family: 'LuckiestGuy-Regular', Verdana, Geneva, Tahoma, sans-serif !important;
+}
+
+.letritas {
+  font-family: 'DarumadropOne', sans-serif !important;
+  color: #211917;
+}
+
+.navbar-button {
+  border-color: #211917 !important;
+  background-color: #211917 !important;
+  /*cursor: pointer;
+  padding: 0;*/ /* Elimina el relleno interno del botón */
+}
+
+.navbar-button img {
+  width: 100px; /* Tamaño de la imagen del botón en la barra de navegación */
+  height: auto;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100vw; /* Ancho del modal: 100% del ancho de la ventana */
+  height: 100vh; /* Alto del modal: 100% del alto de la ventana */
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+  background-color: #f4f8e6;
+  color: #211917;
+  text-decoration: #211917;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #d8dec3;
+  width: 50%; /* Ancho del contenido del modal: 50% del ancho de la ventana */
+  max-width: 400px; /* Máximo ancho del contenido del modal */
+}
+
+.modal-image {
+  width: 100%;
+  display: block;
+  margin: auto;
+}
+
+.modal-title {
+  text-align: center;
+  color: #4a3d3d;
+}
+
+.modal-text {
+  text-align: center;
+  color: #4a3d3d;
+}
+
+.close {
+  background-color: #c53916 !important;
+  border-color: #c53916 !important;
+  color: #f4f8e6;
+}
+
+.close:hover,
+.close:focus {
+  background-color: #f4f8e6 !important;
+  border-color: #c53916 !important;
+  color: #c53916 !important;
+}
+
+.main-content{
+  flex: 1;
+}
+.footer {
+  background-color: #888a82;
+  color: #211917;
+  padding: 20px 0;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  /*position: fixed; */
+  z-index: 1000; /* Asegura que el footer esté por encima del contenido */
+ clear: both;
+ flex-shrink: 0;
+ height: 8%;
+}
+
+
+.footer-text {
+  margin: 0;
+}
